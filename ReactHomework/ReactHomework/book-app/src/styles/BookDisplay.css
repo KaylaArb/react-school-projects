@@ -1,0 +1,53 @@
+.Block {
+    display: flex;
+    justify-content: flex-start;
+    flex-direction: column;
+    width: 300px;
+    height: auto;
+    padding: 0 2%;
+    margin-bottom: 25px;
+}
+
+.PosterImage {
+    width: auto;
+    max-height: 300px;
+    object-fit: contain;
+}
+
+.NoImage {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 300px;
+    width: 100%;
+    font-size: 18px;
+    margin: 0;
+}
+
+.TextContainer {
+    margin-top: 8px;
+    text-align: center;
+}
+
+.Title {
+    font-size: 17px;
+    font-weight: 700;
+    padding: 0;
+    margin: 15px 0;
+    overflow: hidden;
+    text-align: center;
+    height: 40px;
+    color: white;
+    cursor: pointer;
+}
+
+.Description {
+    font-size: 12px;
+    color: #666666;
+    margin-bottom: 10px;
+    text-align: center;
+}
+
+a {
+    text-decoration: none;
+}

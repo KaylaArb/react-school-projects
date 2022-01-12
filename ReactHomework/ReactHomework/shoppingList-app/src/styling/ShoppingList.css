@@ -1,0 +1,36 @@
+.Table{
+    text-align: center;
+    font-family: "Trebuchet MS", Arial, Helvetica, sans-serif;
+    border-collapse: collapse;
+    border: 3px solid #ddd;
+    width: 600px;
+    margin: 25px;
+}
+
+.Table th {
+    padding-top: 12px;
+    padding-bottom: 12px;
+    text-align: center;
+    background-color: #008B8B;
+    color: white;
+    border: 1px solid black;
+}
+
+.Table td {
+    border: 1px solid black;
+    padding: 8px;
+}
+
+.Table tr td:first-child {
+    width: 55%;
+}
+
+.SortBtn1{
+    margin-left: 8px;
+    cursor: pointer;
+}
+
+.SortBtn2{
+
+    cursor: pointer;
+}
